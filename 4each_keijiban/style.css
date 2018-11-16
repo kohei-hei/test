@@ -1,0 +1,145 @@
+header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+header ul{
+    width:100%;
+}
+
+header ul li{
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    line-height:60px;
+    padding-left:10px;
+    padding-right:70px;
+    
+}
+
+main{
+    clear:left;
+}
+
+.space{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+}
+.text1{
+    font-size:20px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-left: 10px;
+    width:100%;
+}
+
+form{
+    margin-top: 15px;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;
+    width:100%;
+}
+
+form h3{
+    border-left:4px red solid;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+form div{
+    padding:15px;
+}
+
+.text, textarea{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding: 4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;   
+}
+
+.kiji{
+    margin-top: 15px;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;
+    width:100%;
+}
+
+.kiji h3{
+    margin-left: 5px;
+    padding-left: 5px;
+    border-bottom:2px #ebebeb solid;
+    width: 97%;
+}
+
+.kiji .contents{
+    padding-left: 10px;
+}
+
+.handlename{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box2{
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+}
+
+.box2 img{
+    width:170px;
+    margin:20px 10px -10px 10px;
+}
+
+.box2 .box_pic2{
+    display:inline-block;
+}
+
+
+
+.left{
+    float:left;
+    width:70%;
+    margin-right:0%;
+    margin-bottom:30px;
+}
+
+.right{
+    float:left;
+    width:30%;
+}
+
+
+.text3 ul li{
+    list-style-type: none;
+    
+}
+
+.text3 ul .t3intx{
+    border-bottom:2px dotted gray;
+}
+
+footer{
+    clear:left;
+    width: 100%;
+    height:60px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+}
