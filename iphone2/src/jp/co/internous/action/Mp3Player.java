@@ -1,0 +1,16 @@
+package jp.co.internous.action;
+
+public interface Mp3Player {
+
+	public abstract void play();
+
+	public abstract void stop();
+
+	public abstract void next();
+
+	public abstract void back();
+
+
+	//上記を抽象メソッドという
+
+}
