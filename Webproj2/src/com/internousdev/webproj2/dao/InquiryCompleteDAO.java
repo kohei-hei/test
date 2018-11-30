@@ -24,7 +24,7 @@ public class InquiryCompleteDAO {
 			int i = ps.executeUpdate();
 			if(i > 0){
 				System.out.println(i + "件登録されました");
-				ret = i;;
+				ret = i;
 			}
 		}
 		catch(SQLException e){
