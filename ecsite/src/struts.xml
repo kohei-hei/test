@@ -63,12 +63,10 @@
 		<result name="error">error.jsp</result>
 	</action>
 
-
-
-
-
-
-	<!-- 後ほどここにjspファイルが遷移するように各actionの指示書を記述していく -->
+	<!-- LogoutAction -->
+	<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction" method="execute">
+		<result name="success">home.jsp</result>
+	</action>
 
 	</package>
 
