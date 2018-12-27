@@ -8,9 +8,9 @@
 
 
 	<package name="com.internousdev.webproj.action" extends="struts-default">
+
 	<action name="HelloStrutsAction" class="com.internousdev.webproj.action.HelloStrutsAction" method="execute">
 	<result name="success">hello.jsp</result>
-
 	</action>
 
 	<action name="WelcomeAction" class="com.internousdev.webproj.action.WelcomeAction" method="execute">

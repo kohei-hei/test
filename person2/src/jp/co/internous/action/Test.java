@@ -4,15 +4,16 @@ public class Test {
 
 	public static void main(String[] args){
 
-		Person taro = new Person();
+		Person taro = new Person(); //Personクラスをインスタンス化し、コンストラクタ①を利用
+
 		taro.name = "taro";
 		taro.age = 18;
 		System.out.println(taro.name);
 		System.out.println(taro.age);
 
 
-		Person jiro = new Person("jiro",20);
-		System.out.println(jiro.name);
+		Person jiro = new Person("jiro",20);//Personクラスをjiroという名でインスタンス化し、コンストラクタ②を利用
+		System.out.println(jiro.name);      //したことによって、引数指定するだけでname,ageフィールドに値が代入出来た！
 		System.out.println(jiro.age);
 
 

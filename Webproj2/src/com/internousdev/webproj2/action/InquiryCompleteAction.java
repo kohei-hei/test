@@ -16,7 +16,7 @@ public class InquiryCompleteAction extends ActionSupport {
 	public String execute(){
 		String ret=ERROR;
 		InquiryCompleteDAO dao=new InquiryCompleteDAO();
-		int count= dao.insert(name, qtype, body);
+		int count= dao.insert(name, qtype, body); //右辺メソッドの戻り値はInquiryCompleteDAOのret(=i)
 
 		if(count > 0){
 			ret=SUCCESS;

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+
+
+  <display-name>template2</display-name>
+
+  <!-- ↑プロジェクト実行時にURLに表示される名前（＝プロジェクト名）を指定 -->
+
+  <welcome-file-list>
+
+    <welcome-file>home.jsp</welcome-file>
+    <!-- ↑プロジェクト実行時に最初に表示されるページを指定 -->
+
+  </welcome-file-list>
+
+  <!-- Struts2の機能を使うことを以下に宣言 -->
+
+  <filter>
+  <filter-name>struts2</filter-name>
+  <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+  	<filter-name>struts2</filter-name>
+  	<url-pattern>/*</url-pattern>
+  	<!-- このURLのパターンの時はstruts2の機能を使いますよ、の意味
+  	"/*"は"同じ階層(プロジェクト)の全てのURLに対して"ということ -->
+
+  </filter-mapping>
+
+
+</web-app>

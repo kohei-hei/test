@@ -1,0 +1,12 @@
+package com.internousdev.template2.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class HomeAction extends ActionSupport {
+	public String execute(){
+
+		return SUCCESS; //stuts2に処理を頼まれて、ただ単にSUCCESSを返すだけのやつ
+
+	}
+
+}
